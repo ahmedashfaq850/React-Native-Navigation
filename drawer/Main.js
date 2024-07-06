@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import BottomNavigator from "../bottomBar/BottomNavigator";
 
 const Main = () => {
   return (
-    <View>
-      <Text>main</Text>
+    <View style={{ flex: 1 }}>
+      <BottomNavigator />
     </View>
   );
 };
