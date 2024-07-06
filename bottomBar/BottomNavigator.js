@@ -11,17 +11,17 @@ const BottomNavigator = () => {
       <Bottom.Screen
         name="Screen1"
         component={Screen1}
-        options={{ headerShown: true }}
+        options={{ headerShown: false }}
       />
       <Bottom.Screen
         name="Screen2"
         component={Screen2}
-        options={{ headerShown: true }}
+        options={{ headerShown: false }}
       />
       <Bottom.Screen
         name="Screen3"
         component={Screen3}
-        options={{ headerShown: true }}
+        options={{ headerShown: false }}
       />
     </Bottom.Navigator>
   );
